@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="Registration-Form">
+        <div>Registration-Form</div>
+        <div id="form-list">
+            <form id="Form">
+
+                <label class="label">Name</label>
+                <br>
+                <input type="text" id="name">
+                <br>
+                <label class="label">Roll</label>  <br>
+                <input type="number" id="roll">
+                <br>
+                <label class="label">Email</label>  <br>
+                <input type="text" id="email">
+                <br>
+                <label class="label">Marks</label>  <br>
+                <input type="number" id="marks">
+                <br>
+                <label class="label">City</label>  <br>
+                <input type="text" id="city">
+
+                <br>
+                <br>
+                <input type="button" value="Add New" onclick="addInformation()">
+            </form>
+        </div>
+    </div>
+    <div class="table-div">
+        <table id="Student-table">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Roll</th>
+                    <th>Email</th>
+                    <th>Marks</th>
+                    <th>City</th>
+                </tr>
+            </thead>
+            <tbody id="tbody"></tbody>
+        </table>
+
+    </div>
+
+    <script src="tape.js"></script>
+</body>
+
+</html>
